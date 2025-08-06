@@ -1,1 +1,1 @@
-# yeR2cwDyvLTdyfpraekAe7PmTrfqHQyLpJKAG8ZV9Gh0H3tT
+This repo hosts the standalone chat launcher page the chatbot.
