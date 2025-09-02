@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <img src="https://i.postimg.cc/c4WfmYg7/Submittable-logo-small-transparent.png" alt="My Website Logo" class="logo">
+  <title>Applicant Chatbot</title>
+  <style>
+
+    body {
+      font-family: Verdana, Geneva, sans-serif;
+      padding: 2rem;
+      background: #f5f5f5;
+    }
+
+    .logo {
+            width: 180px; /* Adjust the size */
+            height: auto;
+    }
+    #widget-container {
+      margin-top: 2rem;
+      padding: 1rem;
+      border: 2px dashed #1B365D;
+      background: #fff;
+    }
+    #prompt-library {
+      margin-top: 2rem;
+      background: #fafafa;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    ul {
+      margin-top: 0;
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Optional: prevent widget from interfering with copying */
+    * {
+      user-select: auto !important;
+    }
+    h3 {
+      color: #1B365D;
+      margin-bottom: 0.5rem;
+    }
+    h4 {
+      color: #1B365D;
+      margin-bottom: 0.5rem;
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <h1 style="color: #1B365D;">Applicant Chatbot</h1>
+  <!-- <p>This is a basic HTML page for testing the applicant chatbot widget.</p> -->
+
+  <!-- ✅ Widget Container
+  <div id="widget-container">
+    <p>Click on the chat bubble icon at the bottom right corner to launch the chatbot</p>
+  </div>
+-->
+
+ <div id="prompt-library">
+<h2 style="color: #1B365D;">💬 Sample Applicant Prompts</h2>
+<p>Try any of these prompts in the Chatbot widget!</p>
+   
+<h3 style="color: #1B365D;">Application Process Questions:</h3>
+
+<h3>Getting Started</h3>
+<ul>
+<li>How do I create an account and start my application?</li>
+<li>Where do I find the application form?</li>
+<li>Do I need an invitation code to apply?</li>
+<li>What’s the difference between my profile and the application?</li>
+</ul>
+
+<h3>Eligibility Questions</h3>
+<ul>
+<li>How do I know if I’m eligible for this program?</li>
+<li>What happens if I don’t meet the eligibility requirements?</li>
+<li>Can I still apply if the system says I’m not eligible?</li>
+<li>Who can apply - individuals, organizations, or both?</li>
+</ul>
+
+  <ul>
+  <h4>Technical Questions</h4>
+    <ul>
+    <li>What file formats can I upload for documents?</li>
+    <li>What’s the maximum file size for uploads?</li>
+    <li>Can I save my application and come back to it later?</li>
+    <li>Why did I get logged out and lose my work?</li>
+    <li>Can I complete the application on my mobile phone?</li>
+    </ul>
+  </ul>
+
+<h3>Recommendations Questions</h3>
+  <ul>
+  <h4>Process Questions</h4>
+    <ul>
+    <li>How do I request recommendations?</li>
+    <li>What information do I need from my recommenders?</li>
+    <li>How will my recommenders receive the invitation?</li>
+    <li>How long do recommenders have to submit their letters?</li>
+    </ul>
+  </ul>
+
+  <ul>
+  <h4>Follow-up Questions</h4>
+    <ul>
+    <li>How do I know if my recommenders have submitted their letters?</li>
+    <li>Can I remind my recommenders if they haven’t submitted yet?</li>
+    <li>What if my recommender didn’t receive the email invitation?</li>
+    <li>Can I change my recommenders after I’ve already requested them?</li>
+    </ul>
+  </ul>
+
+<h3>ID Verification Questions</h3>
+  <ul>
+  <h4>Process Questions</h4>
+    <ul>
+    <li>How do I verify my identity?</li>
+    <li>What types of ID documents are accepted?</li>
+    <li>Which countries are supported for ID verification?</li>
+    <li>How long does the verification process take?</li>
+    </ul>
+  </ul>
+
+  <ul>
+  <h4>Technical Questions</h4>
+    <ul>
+    <li>Can I use a webcam instead of my mobile phone for verification?</li>
+    <li>What file formats are supported for document uploads?</li>
+    <li>What happens if my verification is declined?</li>
+    <li>Can I delete or update my verified ID information?</li>
+    </ul>
+  </ul>
+
+<h3>Submission Questions</h3>
+  <ul>
+  <h4>Before Submission</h4>
+    <ul>
+    <li>How do I know if my application is complete?</li>
+    <li>What’s the deadline for submission?</li>
+    <li>Can I submit multiple applications to the same program?</li>
+    <li>What timezone is the deadline in?</li>
+    </ul>
+  </ul>
+
+  <ul>
+  <h4>After Submission</h4>
+    <ul>
+    <li>How do I know my application was successfully submitted?</li>
+    <li>Can I edit my application after I’ve submitted it?</li>
+    <li>Will I receive a confirmation email?</li>
+    <li>When will I hear back about my application status?</li>
+    </ul>
+  </ul>
+
+<h3>Program-Specific Questions</h3>
+<ul>
+<li>What documents do I need to upload?</li>
+<li>How detailed should my budget be?</li>
+<li>Are there page limits for narrative responses?</li>
+<li>What should I include in my project description?</li>
+</ul>
+
+<h3>Post-Award Questions</h3>
+<ul>
+<li>What reporting will be required if I’m awarded?</li>
+<li>When are reports due?</li>
+<li>How do I submit my progress reports?</li>
+<li>What happens if I need to modify my project?</li>
+</ul>
+
+<h3>Account & Profile Questions</h3>
+<ul>
+<li>How do I update my profile information?</li>
+<li>Can I use the same profile for multiple applications?</li>
+<li>How do I reset my password?</li>
+<li>Can I change my email address?</li>
+</ul>
+
+<h3>Privacy & Security</h3>
+<ul>
+<li>Who can see my application information?</li>
+<li>How is my personal information protected?</li>
+<li>Can I delete my account and data?</li>
+<li>What happens to my information after the program ends?</li>
+</ul>
+
+<h3>Support Questions</h3>
+<ul>
+<li>Who do I contact if I have technical problems?</li>
+<li>How do I get help with my application?</li>
+<li>What if I miss the deadline due to technical issues?</li>
+<li>Can someone help me complete my application?</li>
+</ul>
+</div>
+ 
+
+<!-- Begin Embed Chatbot Widget -->
+  <script
+      data-embed-id="398b2ade-25f4-4396-be5b-c3d8451a56aa"
+      data-base-api-url="https://anythingllm-docker-production-e607.up.railway.app/api/embed"
+      data-brand-image-url="https://i.postimg.cc/RqrQtvqM/Sumbittable-circular-badge.png"
+     
+      data-chat-icon="#FC5B30"
+      data-assistant-icon="https://i.postimg.cc/zXkKPBKs/Submittable-badge-no-heart.png"
+      data-button-color="#FC5B30"
+      data-user-bg-color="#FC5B30"
+      data-open-on-load="on"
+      
+      data-assistant-name="Submittable Application Assistant"
+      data-greeting="Hello and welcome to the Submittable Application Assistant!
+      I'm here to guide you through the application process — from eligibility questions to document submission and deadlines."
+      data-send-message-text="Got a question? I’m here to help!"
+      
+      data-no-sponsor=" "
+      data-username=" "   
+ 
+      src="https://anythingllm-docker-production-e607.up.railway.app/embed/anythingllm-chat-widget.min.js">
+    </script>
+<!-- End Embed Chatbot Widget -->
+
+</body>
+</html>
